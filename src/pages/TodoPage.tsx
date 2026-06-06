@@ -11,6 +11,15 @@ export default function TodoPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
       <div className="max-w-2xl mx-auto px-4 py-10">
+        {/* Hero Image */}
+        <div className="w-full mb-8 rounded-2xl overflow-hidden shadow-lg">
+          <img
+            src="/image-1.png"
+            alt="Hero"
+            className="w-full object-cover max-h-64"
+          />
+        </div>
+
         {/* Header */}
         <div className="flex items-center gap-3 mb-8">
           <div className="p-2 bg-indigo-600 rounded-xl">
